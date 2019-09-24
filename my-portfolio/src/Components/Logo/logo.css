@@ -1,0 +1,11 @@
+.Logo {
+    height: 3rem;
+    display: flex;
+}
+
+.figure-logo {
+    display: flex;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+}
