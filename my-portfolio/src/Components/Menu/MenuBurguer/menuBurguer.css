@@ -1,0 +1,13 @@
+.nav-menu-burguer {
+    height: 100vh;
+    width: 70%;
+    background-color: #042635;
+}
+
+.open-menu-burguer {
+    display: flex;
+}
+
+.close-menu-burguer {
+    display: none;
+}
