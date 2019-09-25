@@ -1,13 +1,10 @@
-import React, {Component, Fragment} from 'react';
+import React, {Fragment} from 'react';
 import './menuBurguer.css';
 
-class MenuBurguer extends Component {
-    render(){
-        const {displayMenu} = this.props;
-        const classesNav = `nav-menu-burguer ${displayMenu ? "open-menu-burguer" : "close-menu-burguer"}`
+const MenuBurguer = () =>{
         return(
             <Fragment>
-                <nav className={classesNav}>
+                <nav className="nav-menu-burguer">
                     <ul>
                         <li>Home</li>
                         <li>About</li>
@@ -17,7 +14,6 @@ class MenuBurguer extends Component {
                 </nav>
             </Fragment>
         )
-    }
 }
 
 export default MenuBurguer

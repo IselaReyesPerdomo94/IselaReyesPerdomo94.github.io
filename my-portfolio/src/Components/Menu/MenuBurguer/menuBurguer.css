@@ -2,12 +2,18 @@
     height: 100vh;
     width: 70%;
     background-color: #042635;
+    color: #42FFB0;
+    z-index: 3;
+    margin: 0;
+    top: 10%;
+    right: 0;
+    position: absolute;
+    transition: all 1s ease-in;
 }
 
-.open-menu-burguer {
-    display: flex;
-}
-
-.close-menu-burguer {
-    display: none;
+.nav-menu-burguer ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }

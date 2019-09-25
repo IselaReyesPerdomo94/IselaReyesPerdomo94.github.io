@@ -1,33 +1,27 @@
-import React, {Component, Fragment} from 'react';
+import React, {Fragment, useState} from 'react';
 import Logo from '../../Components/Logo/logo';
 import MenuBars from '../../Components/Menu/Menu-bars/menuBars';
+import MenuBurguer from '../../Components/Menu/MenuBurguer/menuBurguer';
 import './home.css';
 
-class Home extends Component {
-    constructor(props){
-        super(props)
-        this.state = {openMenuBurguer: false}
-        this.handleMenuBurger = this.handleMenuBurger.bind(this);
-    }
+const Home = () => {
+    const [menu, setMenu] = useState(false)
 
-    handleMenuBurger(e){
-        this.setState((prevState)=> {
-            console.log('Prevstate:',prevState)
-            return{openMenuBurguer: !prevState.openMenuBurguer};
-        })
+    const handleClickMenuBurguer = () => {
+        setMenu(!menu);
     }
-
-    render(){
-        const {handleMenuBurger} = this.props;
-        const {openMenuBurguer} =  this.state;
-        console.log(openMenuBurguer)
         return(
             <Fragment>
                 <header className="header">
                     <Logo/>
-                    <MenuBars onClick={console.log('click')}/>
+                    <MenuBars onClick={handleClickMenuBurguer} menu={menu}/>
+                    
                 </header>
                 <main>
+                    {
+                        menu &&
+                        <MenuBurguer/>
+                    }
 
                 </main>
                 <footer>
@@ -35,7 +29,6 @@ class Home extends Component {
                 </footer>
             </Fragment>
         )
-    }
 }
 
 export default Home;
