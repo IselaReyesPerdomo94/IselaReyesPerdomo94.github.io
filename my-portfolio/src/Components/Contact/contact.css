@@ -1,0 +1,13 @@
+.contact-container {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    color: #042635;
+    font-size: 1.5rem;
+}
+
+.contact-labels {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}

@@ -1,10 +1,10 @@
 .menu-bars {
-    color: #42FFB0;
+    color: #08415C;
     font-size: 2.5rem;
     margin: 0.2rem;
 }
 
- .colored-menu {
+.colored-menu {
     display: flex;
     justify-content: flex-end;
     width: 70%;
@@ -15,13 +15,11 @@
     position: absolute;
     padding-right: 1rem;
     padding-top: 1rem;
-} 
-
-
-@media screen and (min-width: 1200px) {
-  .menu-bars, 
-  .colored-menu{
-      display: none;
-  }
 }
 
+@media screen and (min-width: 1200px) {
+    .menu-bars,
+    .colored-menu {
+        display: none;
+    }
+}
