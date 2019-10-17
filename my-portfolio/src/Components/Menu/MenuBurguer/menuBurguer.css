@@ -89,5 +89,9 @@ span:hover,
     .nav-menu-burguer ul li {
         width: 10rem;
         font-size: 2rem;
+        color: #08415C;
+    }
+    .nav-menu-burguer ul li a {
+        color: #08415C;
     }
 }
