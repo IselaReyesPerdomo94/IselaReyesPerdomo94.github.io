@@ -9,9 +9,9 @@ import './home.css';
 const Home = () => {
     const [menu, setMenu] = useState(false)
 
-    const handleClickMenuBurguer = () => {
-        setMenu(!menu);
-    }
+    const handleClickMenuBurguer = () => setMenu(!menu)
+
+    const closeMenuBurguer = () => setMenu(false)
         return(
             <Fragment>
                 <header className="header">
@@ -34,7 +34,11 @@ const Home = () => {
                             to create amazing things together.
                         </p>
                     </section>
-                    <MenuBurguer display={menu} handleClickMenuBurguer={handleClickMenuBurguer}/>
+                    <MenuBurguer 
+                        display={menu} 
+                        handleClickMenuBurguer={handleClickMenuBurguer} 
+                        closeMenuBurguer={closeMenuBurguer}
+                    />
                 </main>
             </Fragment>
         )

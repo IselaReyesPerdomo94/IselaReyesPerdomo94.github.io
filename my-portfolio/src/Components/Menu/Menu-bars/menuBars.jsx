@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './menuBars.css';
 
-const MenuBars = ({onClick, menu}) => {
+const MenuBars = ({onClick}) => {
     return(
         <Fragment>
             <div className="colored-menu">

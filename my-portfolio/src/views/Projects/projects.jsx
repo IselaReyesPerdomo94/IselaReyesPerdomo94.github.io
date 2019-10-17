@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import CardProject from '../../Components/CardProject/cardproject';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
