@@ -3,7 +3,7 @@ import CardProject from '../../Components/CardProject/cardproject';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
 import {faHtml5, faJsSquare, faCss3Alt} from '@fortawesome/free-brands-svg-icons';
-import labcar from '../../img/labcar.png';
+// import labcar from '../../img/labcar.png';
 import './projects.css';
 
 const Projects = () => {
@@ -33,7 +33,7 @@ const Projects = () => {
                 In this project I only focused in layout and google geolocation implementation that
                 can detect location of costumer."
                 tools={labcarTools2}
-                image={labcar}
+                
                 atlImage="LabCar"
             />
         </section>
