@@ -54,7 +54,7 @@ h4 {
 .links-to-live {
     grid-area: code;
     width: 70%;
-    height: 70%;
+    height: 65%;
     display: flex;
     color: white;
     font-size: 1.5rem;
