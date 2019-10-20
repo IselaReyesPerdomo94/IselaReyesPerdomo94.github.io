@@ -9,18 +9,30 @@ import './projects.css';
 const Projects = () => {
     const labcarTools2 = (
         <div className="tool-box">
-            <label>
-                <FontAwesomeIcon className="icon-tools" icon={faHtml5} />
-            </label>
-            <label>
-                <FontAwesomeIcon className="icon-tools" icon={faJsSquare} />
-            </label>
-            <label>
-                <FontAwesomeIcon className="icon-tools" icon={faCss3Alt} />
-            </label>
-            <label>
-                <FontAwesomeIcon className="icon-tools" icon={faMapMarkedAlt} />
-            </label>
+            <div className="tool-circle">
+                <label>
+                    <FontAwesomeIcon className="icon-tools" icon={faHtml5} />
+                </label>
+                <span className="icon-text">HTML 5</span>
+            </div>
+            <div className="tool-circle">
+                <label>
+                    <FontAwesomeIcon className="icon-tools" icon={faJsSquare} />
+                </label>
+                <span className="icon-text">Javascript</span>
+            </div>
+            <div className="tool-circle">
+                <label>
+                    <FontAwesomeIcon className="icon-tools" icon={faCss3Alt} />
+                </label>
+                    <span className="icon-text">CSS</span>
+            </div>
+            <div className="tool-circle">
+                <label>
+                    <FontAwesomeIcon className="icon-tools" icon={faMapMarkedAlt} />
+                </label>
+                    <span className="icon-text">Google geolocation</span>
+            </div>
         </div>
     )
     return(

@@ -21,13 +21,24 @@ h2 {
     font-size: 1.5rem;
 }
 
+.icon-text {
+    display: none;
+}
+
 .tool-box {
     display: flex;
     justify-content: space-evenly;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
     .projects {
-        width: 70%;
+        width: 80%;
+    }
+    .icon-tools {
+        font-size: 2rem;
+    }
+    .icon-text {
+        display: flex;
+        font-size: 1rem;
     }
 }
