@@ -6,7 +6,12 @@ body {
     margin: 0;
 }
 
+p {
+    color: #0F0F0F;
+}
+
 .App {
-    background-color: #08415C;
+    background-color: white;
     height: 100vh;
+    font-family: 'Open Sans Condensed', sans-serif;
 }

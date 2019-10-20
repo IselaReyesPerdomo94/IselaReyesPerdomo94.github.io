@@ -1,23 +1,25 @@
-import React, {Component, Fragment} from 'react';
+import React, {Fragment} from 'react';
 import './menuBurguer.css';
 
-class MenuBurguer extends Component {
-    render(){
-        const {displayMenu} = this.props;
-        const classesNav = `nav-menu-burguer ${displayMenu ? "open-menu-burguer" : "close-menu-burguer"}`
+const MenuBurguer = (props) =>{
+        const {display, closeMenuBurguer,handleClickMenuBurguer} = props;
+        const menuDisplayed = `nav-menu-burguer ${display ? "open" :"close"}`
         return(
             <Fragment>
-                <nav className={classesNav}>
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Skills</li>
-                        <li>Project</li>
+                <nav className={menuDisplayed}>
+                    <span className={display ? "": "hidden ex"} onClick={handleClickMenuBurguer}>X</span>
+                    <ul className={display ? "": "hidden"}>
+                        <li className={display ? "": "hidden"}>
+                            <a href="#about" onClick={closeMenuBurguer}>About</a>
+                        </li>
+                        <li className={display ? "": "hidden"}>
+                            <a href="#projects" onClick={closeMenuBurguer}>Projects</a>
+                        </li>
+                        <li className={display ? "": "hidden"}>Contact</li>
                     </ul>
                 </nav>
             </Fragment>
         )
-    }
 }
 
 export default MenuBurguer
