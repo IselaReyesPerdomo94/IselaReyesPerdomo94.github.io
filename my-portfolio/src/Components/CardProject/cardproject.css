@@ -13,7 +13,7 @@ article {
 .article {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 10% 5% 45% 15% 15% 10%;
+    grid-template-rows: 5% 5% 40% auto 15% 10%;
     grid-template-areas: 'title title' 'date date' 'card-img card-img' 'p-card p-card' 'tools tools' 'code live';
 }
 
@@ -52,8 +52,7 @@ h4 {
 
 .links-to-code,
 .links-to-live {
-    grid-area: code;
-    width: 70%;
+    width: 85%;
     height: 65%;
     display: flex;
     color: white;
@@ -63,11 +62,17 @@ h4 {
     justify-self: center;
     justify-content: center;
     background-color: #EE2677;
+    cursor: pointer;
 }
 
 .links-to-live {
     grid-area: live;
     background-color: #08415C;
+}
+
+.links-to-code:hover,
+.links-to-live:hover {
+    transform: scale(1.2);
 }
 
 .tools {
@@ -96,4 +101,39 @@ h4 {
     border-radius: 100%;
     justify-content: center;
     background-color: #21BED3;
+}
+
+@media screen and (min-width: 720px) {
+    h4 {
+        font-size: 3rem;
+    }
+    .article {
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10% 10% auto 20% 10%;
+        grid-template-areas: 'title title' 'date date' 'card-img p-card' 'tools tools' 'code live';
+    }
+    .date {
+        font-size: 1.5rem;
+    }
+    .p-card {
+        font-size: 1.5rem;
+    }
+    .links-to-code,
+    .links-to-live {
+        width: 40%;
+    }
+    .tools label {
+        height: 4rem;
+        width: 4rem;
+    }
+    .tool-circle {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 10rem;
+        text-align: center;
+    }
 }
