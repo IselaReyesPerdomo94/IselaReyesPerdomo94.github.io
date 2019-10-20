@@ -19,7 +19,7 @@ const Contact = () => {
                 <FontAwesomeIcon icon={faLinkedinIn} /> 
             </a>
             <a className="contact-labels"
-                href="https://drive.google.com/open?id=1JxnM52yirTraxvhKsx5BWD59zu04FhNe"
+                href="https://drive.google.com/open?id=1LwCotQp5_r6YPUphcOYy8nWTsSRvJOhK"
             >
                 CV
                 <FontAwesomeIcon icon={faFile} /> 
