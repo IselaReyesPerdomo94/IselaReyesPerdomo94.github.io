@@ -150,5 +150,9 @@ h4 {
     }
     .figure-card img {
         width: 90%;
+        filter: grayscale(100%)
+    }
+    .figure-card img:hover {
+        filter: grayscale(0)
     }
 }
