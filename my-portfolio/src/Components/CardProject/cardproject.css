@@ -1,158 +1,66 @@
-article {
-    width: 95%;
-    opacity: 0.9;
-    height: fit-content;
-    padding: 1rem;
-    border-radius: 10px;
-    background-color: #F7EEED;
-    -webkit-box-shadow: -1px 2px 7px 0px rgba(8, 65, 92, 0.22);
-    -moz-box-shadow: -1px 2px 7px 0px rgba(8, 65, 92, 0.22);
-    box-shadow: -1px 2px 7px 0px rgba(8, 65, 92, 0.22);
-}
-
 .article {
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto 70px;
-    grid-template-areas: 'title title' 'date date' 'card-img card-img' 'p-card p-card' 'tools tools' 'code live';
-}
-
-h4 {
-    margin: 0;
-    grid-area: title;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.date {
-    margin: 0;
-    grid-area: date;
-    text-align: end;
-}
-
-.figure-card {
-    grid-area: card-img;
-    margin: 0;
-}
-
-.figure-card img {
-    height: 90%;
     width: 100%;
-}
-
-.p-card {
-    grid-area: p-card;
-    margin: 0;
-}
-
-.links-to a {
-    color: white;
-    grid-row: 8/10;
+    height: 60vh;
     padding: 0.5rem;
-    margin: 0 0.5rem;
-    grid-column: 1/-1;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    align-items: center;
-    text-decoration: none;
 }
 
-.links-to-code,
-.links-to-live {
-    width: 85%;
-    height: 44px;
+.flag-info {
+    width: 100%;
     display: flex;
     color: white;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    align-items: center;
-    justify-self: center;
-    justify-content: center;
-    background-color: #EE2677;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.links-to-live {
-    grid-area: live;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
     background-color: #08415C;
 }
 
-.links-to-code:hover,
-.links-to-live:hover {
-    transform: scale(1.2);
-}
-
-.tools {
-    grid-area: tools;
-    height: 80%;
-    display: flex;
-    align-self: center;
-    flex-direction: column;
-}
-
-.tools p {
-    margin: 0;
-    font-weight: 700;
-}
-
-.icon-card-project {
-    margin-left: 0.5rem;
-}
-
-.tools label {
-    display: flex;
-    width: 2.5rem;
-    height: 2.5rem;
+.p-card {
     color: white;
-    align-items: center;
-    border-radius: 100%;
-    justify-content: center;
-    background-color: #21BED3;
+    display: block;
+    width: 75%;
 }
 
-@media screen and (min-width: 720px) {
-    h4 {
-        font-size: 3rem;
-    }
-    .article {
-        width: 80%;
-        height: fit-content;
-        display: grid;
-        gap: 0.5rem;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: 'title title' 'date date' 'card-img p-card' 'tools tools' 'code live';
-    }
-    .date {
-        font-size: 1.5rem;
-    }
-    .p-card {
-        font-size: 1.5rem;
-    }
-    .links-to-code,
-    .links-to-live {
-        width: 40%;
-    }
-    .tools label {
-        height: 3rem;
-        width: 3rem;
-    }
-    .tool-circle {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 10rem;
-        text-align: center;
-    }
-    .figure-card img {
-        width: 90%;
-        filter: grayscale(100%)
-    }
-    .figure-card img:hover {
-        filter: grayscale(0)
-    }
+.date {
+    display: flex;
+    width: 40%;
+    padding: 0;
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: normal;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    margin: 0px;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.plus-button {
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 100%;
+    background-color: #EE2677;
+}
+
+.figure-card {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.figure-card img {
+    -webkit-box-shadow: -2px -2px 5px 3px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: -2px -2px 5px 3px rgba(0, 0, 0, 0.59);
+    box-shadow: -2px -2px 5px 3px rgba(0, 0, 0, 0.59);
+}
+
+.tools,
+.links-to-code,
+.links-to-live {
+    display: none;
 }

@@ -2,30 +2,43 @@
     "projects": [{
             "project": "Burguer Queen",
             "date": "October 2019",
+            "breeze": "An amazing and Intelligent Inventory",
             "description": "Point of Service that allows calculate about it inventory according from sales. This version was made exclusively to Pan D' Monium a vegeterian fast food restaurant that make their inventory every day by hand. We wanted it to help them with an intelligent inventory. This progressive web app can work without internet conection and has an authenthification from Firebase. I was in charge in planning, merge branches in commits in Github, in develop,  and implementation negotiation.",
             "img": "img/burguerQueen.png",
             "altImage": "Burguer Queen",
             "code": "https://github.com/IselaReyesPerdomo94/BurguerQueenPandemonium",
             "live": "https://iselareyesperdomo94.github.io/BurguerQueenPandemonium/Home"
         },
-
         {
-            "project": "Lab Car",
-            "date": "July 2019",
-            "description": "Web app that offers transportation service to students. In this project I only focused in layout and google geolocation implementation that can detect location of costumer. Also, the web app is responsive.",
-            "img": "img/labcar.png",
-            "altImage": "Lab Car",
-            "code": "https://github.com/IselaReyesPerdomo94/Lab-car008",
-            "live": "https://iselareyesperdomo94.github.io/Lab-car008/index.html"
+            "project": "MD Links",
+            "date": "September 2019",
+            "breeze": "Library that identifies urls  in Markdown files",
+            "description": "It is a library that allows you to identify the links of a Markdown file, see them listed on your console and validate how many and which of them are links that direct you to a web page.",
+            "img": "img/mdlinks.png",
+            "altImage": "MD Links",
+            "code": "https://github.com/IselaReyesPerdomo94/MEX008-FE-md-link",
+            "live": "https://github.com/IselaReyesPerdomo94/MEX008-FE-md-link"
         },
         {
             "project": "Get Schwifty",
             "date": "August 2019",
+            "breeze": "Responsive web app of Rick and Morty characters",
             "description": "Web app that helps you to order, filter and check every Rick and Morty character. Gives you statistics information about the series and offers you well managed data. I was in charge of development and of unit testing.",
             "img": "img/get.png",
             "altImage": "Get Schwifty",
             "code": "https://github.com/IselaReyesPerdomo94/MEX-Data-Lovers-008",
             "live": "https://iselareyesperdomo94.github.io/MEX-Data-Lovers-008/src/"
+        },
+        {
+            "project": "Lab Car",
+            "date": "July 2019",
+            "breeze": "Responsive web app that offers transportation service to students.",
+            "description": "Web app that offers transportation service to students. In this project I only focused in layout and google geolocation implementation that can detect location of costumer. Also, the web app is responsive.",
+            "img": "img/labcar.png",
+            "altImage": "Lab Car",
+            "code": "https://github.com/IselaReyesPerdomo94/Lab-car008",
+            "live": "https://iselareyesperdomo94.github.io/Lab-car008/index.html"
         }
+
     ]
 }
