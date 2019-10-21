@@ -43,7 +43,7 @@ const Projects = () => {
                 data.projects.map(project => <CardProject
                     title={project.project}
                     date={project.date}
-                    txt={project.description}
+                    txt={project.breeze}
                     image={project.img}
                     altImage={project.altImage}
                     codeURL={project.code}

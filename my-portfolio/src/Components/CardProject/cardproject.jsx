@@ -7,14 +7,17 @@ const CardProject = (props) => {
     const {title, image, atlImage, txt, date, tools, codeURL, liveURL} = props;
     return(
         <article className="article">
-            <h4>{title}</h4>
-            <p className="date">{date}</p>
                 <figure className="figure-card">
                     <img src={image} alt={atlImage}/>
                 </figure>
-                <p className="p-card">
-                    {txt}
-                </p>
+            <div className="flag-info">
+                <h4 className="title">{title}</h4>
+                <span className="date">{date}</span>
+                    <p className="p-card">
+                        {txt}
+                    </p>
+                    <input type="button" value="+" className="plus-button"/>
+            </div>
             <div className="tools">
                 <p>Tools used:</p>
                 {tools}
