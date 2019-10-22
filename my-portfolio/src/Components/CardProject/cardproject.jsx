@@ -10,8 +10,8 @@ const CardProject = (props) => {
 
     const {title, image, atlImage, txt, description, date, tools, codeURL, liveURL, charge} = props;
     
-    const cardClass = `flag-info ${display ? "all-info": ""}`
-    const rotate = `${display ? "down" : "up" }`
+    const cardClass = `flag-info ${display ? "all-info": ""}`;
+    const rotate = `${display ? "down" : "up" }`;
     const arrow = <FontAwesomeIcon icon={faAngleUp} className={rotate}/>
     
     return(
