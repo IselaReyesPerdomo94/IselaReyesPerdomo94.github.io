@@ -1,9 +1,10 @@
 .contact-container {
     display: flex;
+    flex-direction: column;
     width: 95%;
-    justify-content: space-between;
+    justify-content: flex-start;
     color: #08415C;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .contact-labels {

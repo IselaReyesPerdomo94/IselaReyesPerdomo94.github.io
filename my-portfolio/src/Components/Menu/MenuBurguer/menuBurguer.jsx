@@ -7,7 +7,7 @@ const MenuBurguer = (props) =>{
         return(
             <Fragment>
                 <nav className={menuDisplayed}>
-                    <span className={display ? "": "hidden ex"} onClick={handleClickMenuBurguer}>X</span>
+                    <span className={display ? "": "hidden span ex"} onClick={handleClickMenuBurguer}>X</span>
                     <ul className={display ? "": "hidden"}>
                         <li className={display ? "": "hidden"}>
                             <a href="#about" onClick={closeMenuBurguer}>About</a>
@@ -15,7 +15,9 @@ const MenuBurguer = (props) =>{
                         <li className={display ? "": "hidden"}>
                             <a href="#projects" onClick={closeMenuBurguer}>Projects</a>
                         </li>
-                        <li className={display ? "": "hidden"}>Contact</li>
+                        <li className={display ? "": "hidden"}>
+                            <a href="#contact" onClick={closeMenuBurguer}>Contact</a>
+                        </li>
                     </ul>
                 </nav>
             </Fragment>
