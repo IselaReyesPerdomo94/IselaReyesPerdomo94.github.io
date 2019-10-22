@@ -85,7 +85,7 @@
 .tools {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 60%;
 }
 
 .links-to-code {
@@ -112,12 +112,31 @@
     width: 100%;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
     .article {
-        width: 40%;
+        width: 60%;
     }
     .figure-card {
-        width: 90%;
+        width: 100%;
+    }
+    .flag-info {
+        width: 100%;
+    }
+    .all-info {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .article {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+    }
+    .figure-card {
+        width: 100%;
     }
     .flag-info {
         width: 90%;
