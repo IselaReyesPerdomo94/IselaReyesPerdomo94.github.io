@@ -1,18 +1,20 @@
 import React, {useState} from 'react';
 import './cardproject.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faGlobeAmericas} from '@fortawesome/free-solid-svg-icons';
+import { faCode, faGlobeAmericas, faAngleUp, faAngleDown} from '@fortawesome/free-solid-svg-icons';
 
 const CardProject = (props) => {
     const [display, setDisplay] = useState(false);
 
     const handleClickPlusButton = () => setDisplay(!display);
 
-    const {title, image, atlImage, txt, description, date, tools, codeURL, liveURL} = props;
+    const {title, image, atlImage, txt, description, date, tools, codeURL, liveURL, charge} = props;
+
+    const up = <FontAwesomeIcon icon={faAngleUp}/>
+    const down = <FontAwesomeIcon icon={faAngleDown}/>
 
     const cardClass = `flag-info ${display ? "all-info": ""}`
-    const circleButton = `${display ? '-': '+'}`
-
+    
     return(
         <article className="article">
                 <figure className="figure-card">
@@ -27,17 +29,19 @@ const CardProject = (props) => {
                     <p className={`${display ?"p-card description" : "hide"}`}>
                         {description}
                     </p>
+                    <p className={`${display ?"p-card description" : "hide"}`}>
+                        {charge}
+                    </p>
 
                 <div className={`${display ? "tools":"hide"}`}>
                     <p className="date">Tools used:</p>
                     {tools}
                 </div>
-                <input 
-                    type="button"  
-                    value={circleButton} 
+                <button 
+                    type="button"   
                     className="plus-button"
                     onClick={handleClickPlusButton}
-                />
+                >{display ? down: up}</button>
                 <div className="a-container">
                     <a className={`${display ? "links-to-code": "hide"}`} href={codeURL}>
                         Code
