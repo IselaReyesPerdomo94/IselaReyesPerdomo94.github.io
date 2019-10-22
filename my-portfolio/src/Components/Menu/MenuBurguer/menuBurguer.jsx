@@ -7,7 +7,7 @@ const MenuBurguer = (props) =>{
         return(
             <Fragment>
                 <nav className={menuDisplayed}>
-                    <span className={display ? "": "hidden span ex"} onClick={handleClickMenuBurguer}>X</span>
+                    <span className={display ? "span": "hidden ex"} onClick={handleClickMenuBurguer}>X</span>
                     <ul className={display ? "": "hidden"}>
                         <li className={display ? "": "hidden"}>
                             <a href="#about" onClick={closeMenuBurguer}>About</a>
