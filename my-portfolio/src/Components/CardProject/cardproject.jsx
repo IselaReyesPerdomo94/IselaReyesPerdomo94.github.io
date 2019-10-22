@@ -9,11 +9,10 @@ const CardProject = (props) => {
     const handleClickPlusButton = () => setDisplay(!display);
 
     const {title, image, atlImage, txt, description, date, tools, codeURL, liveURL, charge} = props;
-
-    const up = <FontAwesomeIcon icon={faAngleUp}/>
-    const down = <FontAwesomeIcon icon={faAngleDown}/>
-
+    
     const cardClass = `flag-info ${display ? "all-info": ""}`
+    const rotate = `${display ? "down" : "up" }`
+    const arrow = <FontAwesomeIcon icon={faAngleUp} className={rotate}/>
     
     return(
         <article className="article">
@@ -41,7 +40,7 @@ const CardProject = (props) => {
                     type="button"   
                     className="plus-button"
                     onClick={handleClickPlusButton}
-                >{display ? down: up}</button>
+                >{arrow}</button>
                 <div className="a-container">
                     <a className={`${display ? "links-to-code": "hide"}`} href={codeURL}>
                         Code
