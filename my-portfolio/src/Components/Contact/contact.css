@@ -26,3 +26,23 @@
     width: 100%;
     align-items: center;
 }
+
+@media screen and (min-width: 720px) {
+    span {
+        display: flex;
+    }
+    .icon-label-container {
+        width: 30%;
+        justify-content: center;
+    }
+    .contact-labels:hover {
+        background-color: #EE2677;
+        transform: scale(1.1);
+    }
+    .contact-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}
