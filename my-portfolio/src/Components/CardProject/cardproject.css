@@ -20,7 +20,7 @@
 }
 
 .all-info {
-    height: 400px;
+    height: 425px;
     background-color: rgba(8, 65, 92, 0.96);
 }
 
@@ -152,6 +152,6 @@
         width: 85%;
     }
     .all-info {
-        height: 450px;
+        height: 425px;
     }
 }
