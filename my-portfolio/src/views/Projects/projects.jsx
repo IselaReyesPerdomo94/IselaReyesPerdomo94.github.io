@@ -5,9 +5,9 @@ import data from '../../data/data.json';
 import './projects.css';
 
 const Projects = () => {
-    const container = (technologies) => (
+    const container = (technologies, keyname) => (
         <div className="tool-box">
-            <FrontBundle technologies={technologies}/>
+            <FrontBundle technologies={technologies} key={keyname}/>
         </div>
     )
     return(
@@ -26,7 +26,7 @@ const Projects = () => {
                         codeURL={project.code}
                         liveURL={project.live}
                         key={project.project}
-                        tools={project.technologies && container(project.technologies)}
+                        tools={project.technologies && container(project.technologies, project.project)}
                     />)
                 }
             </div>
