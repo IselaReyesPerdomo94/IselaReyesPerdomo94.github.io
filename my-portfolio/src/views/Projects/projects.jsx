@@ -4,7 +4,10 @@ import data from '../../data/data.json';
 import './projects.css';
 
 const Projects = () => {
-    
+    const projects = async(url) =>{
+        const response = await fetch(url);
+        return await response.json();
+    }
     return(
         <section id="projects" className="projects">
             <h2>Projects</h2>

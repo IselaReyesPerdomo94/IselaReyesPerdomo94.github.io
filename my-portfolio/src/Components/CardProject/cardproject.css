@@ -118,7 +118,7 @@
 }
 
 .down {
-    transform: rotateY(180deg);
+    transform: rotate(180deg);
     transition: transform 0.5s;
 }
 
@@ -146,10 +146,10 @@
         width: 45%;
     }
     .figure-card {
-        width: 100%;
+        width: 80%;
     }
     .flag-info {
-        width: 90%;
+        width: 85%;
     }
     .all-info {
         height: 450px;
