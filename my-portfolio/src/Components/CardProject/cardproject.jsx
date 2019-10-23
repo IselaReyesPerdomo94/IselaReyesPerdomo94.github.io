@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './cardproject.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faGlobeAmericas, faAngleUp, faAngleDown} from '@fortawesome/free-solid-svg-icons';
+import { faCode, faGlobeAmericas, faAngleUp} from '@fortawesome/free-solid-svg-icons';
 
 const CardProject = (props) => {
     const [display, setDisplay] = useState(false);
