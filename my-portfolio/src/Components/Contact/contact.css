@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 95%;
     justify-content: space-evenly;
-    font-size: 2rem;
+    font-size: 1.5rem;
     height: 80%;
 }
 
@@ -13,8 +13,8 @@
     justify-content: center;
     text-decoration: none;
     background-color: #08415C;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 4rem;
+    width: 4rem;
     color: white;
     border-radius: 100%;
     margin: 0 0.5rem;
@@ -32,8 +32,8 @@
         display: flex;
     }
     .icon-label-container {
-        width: 30%;
-        justify-content: center;
+        flex-direction: column;
+        width: 33%;
     }
     .contact-labels:hover {
         background-color: #EE2677;
@@ -44,5 +44,6 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        height: 30%;
     }
 }

@@ -31,7 +31,7 @@ const Home = () => {
                             Hi! I am a Front Developer who also has a bachelor degree in Communication.  
                             Currently living in Mexico City and I’m looking for a remote job or something in between. 
                             My passion for code keep growing and I’m so excited to contribute and work with a team 
-                            to create amazing things together.
+                            to create amazing projects together.
                         </p>
                     </section>
                     <MenuBurguer 

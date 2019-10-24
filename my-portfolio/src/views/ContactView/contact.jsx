@@ -6,6 +6,9 @@ const ContactView = () => {
     return(
         <section className="contact-view" id="contact">
             <h2>Contact</h2>
+            <p className="cta">
+                Get in touch!
+            </p>
             <Contact/>
         </section>
     )

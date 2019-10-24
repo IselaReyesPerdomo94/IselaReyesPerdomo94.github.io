@@ -8,7 +8,7 @@
             "img": "img/burguerQueen.png",
             "altImage": "Burguer Queen",
             "code": "https://github.com/IselaReyesPerdomo94/BurguerQueenPandemonium",
-            "live": "https://iselareyesperdomo94.github.io/BurguerQueenPandemonium/Home",
+            "live": "https://iselareyesperdomo94.github.io/BurguerQueenPandemonium/",
             "technologies": ["html", "css", "js", "react", "local", "firebase"]
         },
         {
