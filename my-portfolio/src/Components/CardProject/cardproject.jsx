@@ -42,11 +42,11 @@ const CardProject = (props) => {
                     onClick={handleClickPlusButton}
                 >{arrow}</button>
                 <div className="a-container">
-                    <a className={`${display ? "links-to-code": "hide"}`} href={codeURL}>
+                    <a  target='_blank' className={`${display ? "links-to-code": "hide"}`} href={codeURL}>
                         Code
                         <FontAwesomeIcon className="icon-card-project" icon={faCode} />
                     </a>
-                    <a className={`${display ? "links-to-code": "hide"}`} href={liveURL}>
+                    <a target="_blank" className={`${display ? "links-to-code": "hide"}`} href={liveURL}>
                         Live <FontAwesomeIcon className="icon-card-project" icon={faGlobeAmericas} />
                     </a>
                 </div>

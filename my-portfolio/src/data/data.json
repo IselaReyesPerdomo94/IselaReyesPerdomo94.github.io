@@ -3,12 +3,12 @@
             "project": "Burguer Queen",
             "date": "October 2019",
             "breeze": "An amazing and Intelligent Inventory",
-            "description": "Point of Service that allows calculate about it inventory according from sales. This version was made exclusively to Pan D' Monium a vegeterian fast food restaurant that make their inventory every day by hand. We wanted it to help them with an intelligent inventory. This progressive web app can work without internet conection and has an authenthification from Firebase, and the design was created with Material Design.",
+            "description": "Point of Service that allows calculate about it inventory according from sales. This version was made exclusively to Pan D' Monium a vegeterian fast food restaurant. This progressive web app has an authenthification from Firebase, and the design was created with Material Design.",
             "charge": "I was in charge in planning, merge branches in commits in Github, in develop,  and implementation negotiation.",
             "img": "img/burguerQueen.png",
             "altImage": "Burguer Queen",
             "code": "https://github.com/IselaReyesPerdomo94/BurguerQueenPandemonium",
-            "live": "https://iselareyesperdomo94.github.io/BurguerQueenPandemonium/Home",
+            "live": "https://iselareyesperdomo94.github.io/BurguerQueenPandemonium/",
             "technologies": ["html", "css", "js", "react", "local", "firebase"]
         },
         {
