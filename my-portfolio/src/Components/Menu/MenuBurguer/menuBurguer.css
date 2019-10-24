@@ -10,7 +10,7 @@
     height: 100%;
     color: white;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     transition: width 0.3s;
     background-color: rgb(231, 39, 119)
 }
@@ -60,6 +60,7 @@
 
 .close {
     width: 0;
+    height: 0;
 }
 
 .hidden {

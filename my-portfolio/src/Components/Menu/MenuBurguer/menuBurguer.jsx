@@ -3,6 +3,7 @@ import './menuBurguer.css';
 
 const MenuBurguer = (props) =>{
         const {display, closeMenuBurguer,handleClickMenuBurguer} = props;
+        console.log(display)
         const menuDisplayed = `nav-menu-burguer ${display ? "open" :"close"}`
         return(
             <Fragment>
