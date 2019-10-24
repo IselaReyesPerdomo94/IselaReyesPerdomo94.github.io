@@ -135,6 +135,9 @@
     .all-info {
         height: 450px;
     }
+    .tools {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -149,9 +152,6 @@
         width: 80%;
     }
     .flag-info {
-        width: 85%;
-    }
-    .all-info {
-        height: 425px;
+        width: 90%;
     }
 }
