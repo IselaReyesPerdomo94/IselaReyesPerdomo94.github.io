@@ -59,7 +59,17 @@
     font-size: 2rem;
     border: none;
     border-radius: 100%;
-    background-color: #EE2677;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ee2677+19,006cff+100 */
+    background: #ee2677;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ee2677 19%, #006cff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ee2677 19%, #006cff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ee2677 19%, #006cff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ee2677', endColorstr='#006cff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
     cursor: pointer;
 }
 
