@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 95%;
     justify-content: space-evenly;
-    font-size: 2rem;
+    font-size: 1.5rem;
     height: 80%;
 }
 
@@ -12,8 +12,8 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    height: 6rem;
-    width: 6rem;
+    height: 3rem;
+    width: 3rem;
     color: white;
     border-radius: 100%;
     margin: 0 0.5rem;
@@ -48,6 +48,11 @@
     .contact-labels:hover {
         background-color: #EE2677;
         transform: scale(1.1);
+    }
+    .contact-labels {
+        font-size: 2.5rem;
+        height: 6rem;
+        width: 6rem;
     }
     .contact-container {
         flex-direction: row;

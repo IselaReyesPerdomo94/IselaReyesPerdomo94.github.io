@@ -94,13 +94,10 @@
     }
     .nav-menu-burguer ul li {
         width: 10rem;
-        font-size: 2rem;
-        color: #08415C;
+        font-size: 1.5rem;
+        margin-top: 0;
     }
     .nav-menu-burguer ul li a {
-        color: #08415C;
-    }
-    .nav-menu-burguer ul li a:hover {
-        color: rgb(231, 39, 119);
+        color: white;
     }
 }

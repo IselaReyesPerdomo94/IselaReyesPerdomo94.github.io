@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import {Html, Css, Javascript, MapIcon, ReactIcon, NodeJs, LocalStorage, Firebase, Npm} from '../../Components/ToolsIcons/toolsicons'
 
-const TECHNOLOGIES = {
+export const TECHNOLOGIES = {
     css: Css,
     html: Html,
     js: Javascript,
