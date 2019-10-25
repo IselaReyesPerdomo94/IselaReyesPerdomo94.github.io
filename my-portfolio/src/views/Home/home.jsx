@@ -18,12 +18,12 @@ const Home = () => {
                     <Logo/>
                     <MenuBars onClick={handleClickMenuBurguer} display={menu}/>                    
                 </header>
-                <main className="main">
+                <main className="main"  id="about">
                     <figure className="box-name">
                         <img src={name} className="name" alt="Isela Reyes Perdomo"/>
                     </figure>
                     <h1>Front End Developer</h1>
-                    <section className="hero" id="about">
+                    <section className="hero">
                         <figure className="box-photo-profile">
                             <img src={photoProfile} className="photo-profile" alt="Isela, foto de perfil"/>
                         </figure>
