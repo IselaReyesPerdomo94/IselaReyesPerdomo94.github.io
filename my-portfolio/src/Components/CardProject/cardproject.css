@@ -79,17 +79,27 @@
 }
 
 .figure-card {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
+    width: 85%;
+    padding: 0.5rem;
     justify-content: center;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ee2677+19,006cff+100 */
+    background: #ee2677;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ee2677 19%, #006cff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ee2677 19%, #006cff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ee2677 19%, #006cff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ee2677', endColorstr='#006cff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
 }
 
 .figure-card img {
     bottom: 1;
-    -webkit-box-shadow: -2px -2px 5px 3px rgba(0, 0, 0, 0.59);
-    -moz-box-shadow: -2px -2px 5px 3px rgba(0, 0, 0, 0.59);
-    box-shadow: -2px -2px 5px 3px rgba(0, 0, 0, 0.59);
-    width: 80%;
+    height: 260px;
 }
 
 .tools {
@@ -137,7 +147,7 @@
         width: 60%;
     }
     .figure-card {
-        width: 100%;
+        width: 55%;
     }
     .flag-info {
         width: 100%;
@@ -150,7 +160,7 @@
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
     .article {
         display: flex;
         justify-content: center;
@@ -159,9 +169,15 @@
         width: 45%;
     }
     .figure-card {
-        width: 80%;
+        width: 56%;
     }
     .flag-info {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .figure-card {
+        width: 50%;
     }
 }
