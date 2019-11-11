@@ -36,7 +36,7 @@ const Skills = () => {
                     },
                     {
                         icon: faReact,
-                        label: "React"
+                        label: "React JS"
                     },
                     {
                         icon: faNodeJs,
@@ -44,7 +44,7 @@ const Skills = () => {
                     },
                     {
                         icon: faNpm,
-                        label: "NPM"
+                        label: "npm"
                     }];
 
     const soft = [
