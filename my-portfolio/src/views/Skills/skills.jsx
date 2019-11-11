@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faArchive, faFireAlt, faPeopleCarry, faBrain, faUserCheck, faComments } from '@fortawesome/free-solid-svg-icons';
 import {faHtml5, faJsSquare, faCss3Alt, faReact, faNodeJs, faNpm, faGit, faGithubAlt} from '@fortawesome/free-brands-svg-icons';
+
 import './skills.css'
 
 const Skills = () => {
@@ -10,7 +11,7 @@ const Skills = () => {
                         icon: faHtml5,
                         label: "HTML"}, 
                     {
-                        icon: faJsSquare,
+                        img: './img/js.svg',
                         label: "Javascript"
                     },
                     {
@@ -73,6 +74,7 @@ const Skills = () => {
                     techs.map(tech => <div className="skill-box">
                         <label className="skillsIcons">
                             <FontAwesomeIcon icon={tech.icon}/>
+                            <img src={tech.img}/>
                         </label>
                         <span>{tech.label}</span>
                         </div>)
