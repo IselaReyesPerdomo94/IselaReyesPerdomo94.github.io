@@ -1,18 +1,18 @@
 h2 {
+    width: 100%;
+    color: white;
     font-size: 2rem;
     font-weight: 700;
-    color: #EE2677;
     text-align: center;
     margin: 0rem 0 1rem 0;
+    background-color: #EE2677;
 }
 
 .projects {
     width: 100%;
     display: flex;
-    margin: 2rem auto;
     padding: 0.5rem 0;
     align-items: center;
-    height: fit-content;
     flex-direction: column;
     justify-content: center;
 }
@@ -44,7 +44,7 @@ h2 {
 
 @media screen and (min-width: 720px) {
     .projects {
-        width: 90%;
+        width: 100%;
         display: flex;
         justify-content: center;
     }
@@ -53,6 +53,9 @@ h2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .projects-title {
+        margin-top: 4.5rem;
     }
     .icon-tools {
         font-size: 2rem;

@@ -12,7 +12,7 @@ const Projects = () => {
     )
     return(
         <section id="projects" className="projects">
-            <h2>Projects</h2>
+            <h2 className="projects-title">Projects</h2>
             <div className="projects-container">
                 {  
                     data.projects.map(project => <CardProject

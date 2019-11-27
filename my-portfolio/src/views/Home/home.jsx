@@ -4,6 +4,9 @@ import Logo from '../../Components/Logo/logo';
 import photoProfile from '../../img/photoProfile.JPG';
 import MenuBars from '../../Components/Menu/Menu-bars/menuBars';
 import MenuBurguer from '../../Components/Menu/MenuBurguer/menuBurguer';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHandPointDown } from '@fortawesome/free-solid-svg-icons';
 import './home.css';
 
 const Home = () => {
@@ -34,6 +37,9 @@ const Home = () => {
                             to create amazing projects together.
                         </p>
                     </section>
+                    <span className="hand-space">
+                        <FontAwesomeIcon icon={faHandPointDown} className="hand hand-bounce"/>
+                    </span>
                     <MenuBurguer 
                         display={menu} 
                         handleClickMenuBurguer={handleClickMenuBurguer} 

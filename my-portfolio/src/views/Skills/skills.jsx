@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faArchive, faFireAlt, faPeopleCarry, faBrain, faUserCheck, faComments } from '@fortawesome/free-solid-svg-icons';
-import {faHtml5, faJsSquare, faCss3Alt, faReact, faNodeJs, faNpm, faGit, faGithubAlt} from '@fortawesome/free-brands-svg-icons';
+import {faHtml5, faCss3Alt, faReact, faNodeJs, faNpm, faGit, faGithubAlt} from '@fortawesome/free-brands-svg-icons';
 
 import './skills.css'
 
@@ -67,7 +67,7 @@ const Skills = () => {
                 ]
     return(
         <section className="skills-section">
-            <h2>Skills</h2>
+            <h2 className="skills-title">Skills</h2>
             <h4>Tech</h4>
             <div className="skills-container">
                 {
